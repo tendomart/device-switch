@@ -22,7 +22,7 @@ builder.Services.AddDbContext<LightsContext>(options =>
 
 //MySQL azure connection context
 builder.Services.AddDbContext<LightsContext>(options =>
-    options.UseMySQL(builder.Configuration.GetConnectionString("AZURE_MySQL_CONNECTIONSTRING")));
+    options.UseMySQL(builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
 
 
 
