@@ -11,3 +11,6 @@ to control the virtual device through states sent to the database.
 1. Install dotnet sdk 8 on Unix / Windows
 2. Install required packages
 3. Cd into home directories and  run dotner run
+
+
+backend can be found at https://device-switch.azurewebsites.net/swagger/index.html
