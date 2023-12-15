@@ -20,6 +20,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<LightsContext>(options =>
     options.UseMySQL(builder.Configuration.GetConnectionString("LightConnection")));
 
+//MySQL azure connection context
+builder.Services.AddDbContext<LightsContext>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("AZURE_MySQL_CONNECTIONSTRING")));
+
+
 
 var app = builder.Build();
 
