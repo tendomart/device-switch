@@ -1,1 +1,1 @@
-# iot-device-switch-backend
+# device-switch
